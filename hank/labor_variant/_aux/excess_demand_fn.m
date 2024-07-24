@@ -31,7 +31,6 @@ get_aggregates
 
 %% CHECK ACCURACY
 
-% excess_demand_1 = C_SS * c_seq - Y_SS * y_seq;
 excess_demand_1 = b_seq - bg_seq;
 excess_demand_2 = l_seq - l_seq_supply;
 
