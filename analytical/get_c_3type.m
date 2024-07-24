@@ -441,6 +441,6 @@ hold off
 pos = get(gcf, 'Position');
 set(gcf, 'Position', [pos(1) pos(2) 2*pos(3) 1.2*pos(4)]);
 set(gcf, 'PaperPositionMode', 'auto');
-print('figure_c1','-dpng');
+print('figure_c1','-depsc');
 
 cd([path experiment]);

@@ -282,6 +282,6 @@ grid on
 hold off
 pos = get(gcf, 'Position');
 set(gcf, 'PaperPositionMode', 'auto');
-print('figure_c5_1','-dpng');
+print('figure_c5_1','-depsc');
 
 cd([path model task]);

@@ -370,6 +370,6 @@ pos = get(gcf, 'Position');
 
 set(gcf, 'Position', [pos(1) pos(2) 1.9*pos(3) 1.15*pos(4)]);
 set(gcf, 'PaperPositionMode', 'auto');
-print('figure_c6','-dpng');
+print('figure_c6','-depsc');
 
 cd([path model task]);

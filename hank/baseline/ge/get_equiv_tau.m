@@ -381,6 +381,6 @@ hold off
 pos = get(gcf, 'Position');
 set(gcf, 'Position', [pos(1) pos(2) 1.25*1.7*pos(3) 1.45*0.7*pos(4)]);
 set(gcf, 'PaperPositionMode', 'auto');
-print('figure_3','-dpng');
+print('figure_3','-depsc');
 
 cd([path model task]);

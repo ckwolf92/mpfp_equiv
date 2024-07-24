@@ -197,11 +197,11 @@ hold off
 pos = get(gcf, 'Position');
 set(gcf, 'PaperPositionMode', 'auto');
 if lw_base_indic == 1
-    print('figure_1','-dpng');
+    print('figure_1','-depsc');
 elseif lw_low_indic == 1
-    print('figure_c3_1','-dpng');
+    print('figure_c3_1','-depsc');
 elseif lw_high_indic == 1
-    print('figure_c3_2','-dpng');
+    print('figure_c3_2','-depsc');
 end
 
 % plot different demand paths
@@ -307,11 +307,11 @@ pos = get(gcf, 'Position');
 set(gcf, 'Position', [pos(1) pos(2) 1.25*1.7*pos(3) 1.45*0.7*pos(4)]);
 set(gcf, 'PaperPositionMode', 'auto');
 if lw_base_indic == 1
-    print('figure_2','-dpng');
+    print('figure_2','-depsc');
 elseif lw_low_indic == 1
-    print('figure_c4_1','-dpng');
+    print('figure_c4_1','-depsc');
 elseif lw_high_indic == 1
-    print('figure_c4_2','-dpng');
+    print('figure_c4_2','-depsc');
 end
 
 cd([path model task]);
